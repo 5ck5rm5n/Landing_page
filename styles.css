@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 20vh;
     background-color: #1f2937;
     color: #f9faf8;
     flex-wrap: wrap;
@@ -36,19 +36,18 @@ body{
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 20px;
     flex-wrap: wrap;
+    gap: 20px
 
 }
 
 li{
-    flex: 0 0 auto;
+    flex: 1;
 }
 
 a{
     text-decoration: none;
     color: #E5E7EB;
-    white-space: nowrap;
 }
 
 
@@ -65,7 +64,7 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    height: 70vh;
+    height: 80vh;
     background-color: #1f2937; 
     padding: 0 150px;
     flex: 0 0 auto;
@@ -97,7 +96,8 @@ a{
 
 
 .pic{
-    width: 350px;
+    width: 300px;
+    height: 300px;
     flex: 0 0 auto;
     border-radius: 8px;
 }
@@ -309,10 +309,12 @@ a{
     align-items: center;
     background-color: #1f2937;
     height: 18vh;
+    color: #E5E7EB;
 }
 
 .credit p{
     font-size: 15px;
+
 }
 
 
